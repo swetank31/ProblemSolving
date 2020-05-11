@@ -4,7 +4,7 @@ package com.swetank.problemsolving.leetcode;
  * Fruit Into Baskets - 904
  */
 public class FruitIntoBaskets {
-    public int totalFruit(int[] tree) {
+    public int getTotalFruits(int[] tree) {
         int len = tree.length;
         if (len == 0) return 0;
         if (len == 1) return 1;
